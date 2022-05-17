@@ -61,6 +61,10 @@ p {
     color: #ffffff;
 }
 
+.btn > img {
+    margin-top: 20px;
+}
+
 .container {
     width: 100%;
     padding: 0 20px;
@@ -172,9 +176,9 @@ p {
 }
 
 .catalog-list {
-    width: 1000px;
     display: flex;
     justify-content: space-between;
+    width: 1000px;
     margin: 30px auto;
     padding: 2rem;
     background: #ffffff67;
@@ -182,6 +186,7 @@ p {
     list-style-position: inside;
     font-size: 1.5em;
     text-transform: uppercase;
+    text-align: left;
 }
 
 .sub-list {
@@ -238,6 +243,20 @@ p {
     text-decoration: none;
     text-transform: uppercase;
     color: #ffffff;
+}
+
+.section {
+    text-align: justify;
+    font-size: 0.9rem;
+}
+
+.section__title {
+    margin: 15px;
+    border-bottom: 2px solid #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .footer {
