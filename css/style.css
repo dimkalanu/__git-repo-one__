@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    background-color: #0f0d0d;
+    background: url(../img/bg-1.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+body::after {
+    content: "";
+    background-image: url(../img/bg-2.png);
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style: none;
+}
+
+.btn {
+    padding: 5px 15px;
+    font-size: 0.8em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #716a6798;
+    border-radius: 15px;
+    color: #ff1515;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background-color: #e91212;
+    color: #ffffff;
+}
+
+.container {
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.wrapper {
+    padding: 40px;
+    background-color: #3a37375c;
+}
+
+.comments-wrapper {
+    background-color: #aaaaaaaf;
+    margin: 25px;
+    padding: 15px;
+}
+
+.comments-wrapper h3 {
+    margin-bottom: 5px;
+    color: #e912126e;
+}
+
+#comments {
+    margin-bottom: 50px;
+}
+
+.title,
+.title__style {
+    margin-top: 10vh;
+    font-family: 'Water Brush', cursive;
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 0 0 5px #000000, 0 10px 50px #e91212;
+}
+
+.title__style {
+    margin-top: 50px;
+}
+
+.new-style {
+    color: #e91212;
+    text-shadow: 0 0 5px #000000, 0 10px 50px #ffffff;
+}
+
+.articles__title,
+.article__title {
+    margin-bottom: 25px;
+    font-family: Geneva, sans-serif;
+    font-size: 0.9em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #df0707;
+    border-bottom: 1px solid #ffffff;
+}
+
+.articles__short,
+.articles__long {
+    margin-top: 10px;
+    padding: 15px;
+    text-align: justify;
+    background-color: #5a842dbb;
+}
+
+.article__title {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.read-more {
+    font-style: italic;
+    color: #9e9c9c;
+}
+
+.read-more:hover,
+.comments:hover {
+    font-style: normal;
+    text-decoration: none;
+    color: #000000;
+}
+
+.comments {
+    margin: 15px;
+}
+
+.first-letter {
+    color: #df0707;
+    font-family: 'Water Brush', cursive;
+    font-size: 4rem;
+    float: left;
+    padding-right: 25px;
+}
+
+.catalog-list {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+    padding: 2rem;
+    background: #ffffff67;
+    list-style: url(../img/arrow.png);
+    list-style-position: inside;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.sub-list {
+    list-style: url(../img/treehouse-marker.png);
+    list-style-position: inside;
+    font-weight: 500;
+    background-color: #7a5151d7;
+    padding: 1rem;
+    font-size: 0.7em;
+}
+
+.new::after {
+    content: "new";
+    background: #eeeeee;
+    color: #e91212;
+    font-size: 0.6em;
+    font-weight: 700;
+    padding: 5px;
+    margin-left: 4px;
+    margin-bottom: 3px;
+    border-radius: 10px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #aba19d2e;
+    padding: 8px;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #e91212;
+}
+
+.footer-two {
+    background-color: #aba19d2e;
+    padding: 8px;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #e91212;
+}

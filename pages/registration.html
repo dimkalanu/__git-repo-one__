@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Work L2</title>
+</head>
+
+<body>
+    <header>
+        <h1>Registration</h1>
+        <hr>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="articles.html">Articles</a>
+            <a href="catalog.html">Catalog</a>
+            <a href="contacts.html">Contacts</a>
+            <a href="page-nav.html">Page Nav</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <h2>Please, complete the following form:</h2>
+        <form action="https://tests.fomenko.top/echo/index.php" method="GET">
+            <fieldset>
+                <legend>1. General Info</legend>
+                <div>
+                    <label for="name">Name*</label>
+                    <input id="name" name="name" placeholder="Your name" type="text" required>
+                </div>
+                <div>
+                    <label for="sur_name">Surname*</label>
+                    <input id="sur_name" name="sur_name" placeholder="Your Surname" type="text" required>
+                </div>
+                <div>
+                    <label for="patrymonic">Patrymonic</label>
+                    <input id="patrymonic" name="patrymonic" placeholder="Your patrymonic" type="text">
+                </div>
+                <div>
+                    <label for="photo">Choose Photo</label>
+                    <input id="photo" name="photo" type="file">
+                </div>
+                <div>
+                    <label for="email">Email*</label>
+                    <input id="email" name="email" placeholder="Your Email" type="email" required>
+                </div>
+                <div>
+                    <label for="psw">Password*</label>
+                    <input id="psw" name="psw" placeholder="Choose a password" type="password" required>
+                </div>
+                <div>
+                    <label for="web_page">Web-site</label>
+                    <input id="web_page" name="web_page" placeholder="Your web-site" type="text" value="mysite.name">
+                </div>
+                <div>
+                    <input id="gender_m" name="gender" type="radio" value="male" checked>
+                    <label for="gender_m">Male</label>
+                </div>
+                <div>
+                    <input id="gender_f" name="gender" type="radio" value="female">
+                    <label for="gender_f">Female</label>
+                </div>
+                <div>
+                    <label for="date">Birth Date:*</label>
+                    <input id="date" name="date" type="date">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>2. Favorite kitchen</legend>
+                <div>
+                    <input id="kit_md" name="kitchen" value="moldavian" type="checkbox" checked>
+                    <label for="kit_md">Moldavian</label>
+                </div>
+                <div>
+                    <input id="kit_ua" name="kitchen" value="ukrainian" type="checkbox">
+                    <label for="kit_ua">Ukranian</label>
+                </div>
+                <div>
+                    <input id="kit_it" name="kitchen" value="italian" type="checkbox">
+                    <label for="kit_it">Italian</label>
+                </div>
+                <div>
+                    <input id="kit_fr" name="kitchen" value="french" type="checkbox">
+                    <label for="kit_fr">French</label>
+                </div>
+                <div>
+                    <input id="kit_us" name="kitchen" value="american" type="checkbox">
+                    <label for="kit_us">American</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>3. More about Yourself</legend>
+                <div>
+                    <label for="txt_one">Your strong side</label>
+                    <textarea id="txt_one" name="strong_side" placeholder="Best of you..." cols="40"
+                        rows="5"></textarea>
+                </div>
+                <div>
+                    <label for="txt_two">Your weak side</label>
+                    <textarea id="txt_two" name="weak_side" placeholder="Your weaknesses..." cols="40"
+                        rows="5"></textarea>
+                </div>
+                <div>
+                    <label for="txt_three">Why you want to work with us?</label>
+                    <textarea id="txt_three" name="why_us" placeholder="Why you choose us..." cols="40"
+                        rows="5"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>4. Manipulate the Form</legend>
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+                <button type="button" onclick="prompt('Nice to meet you!', 'Thank you for your time!');">Thank
+                    you!</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; All rights reserved</p>
+    </footer>
+</body>
+
+</html>
