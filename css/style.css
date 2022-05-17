@@ -74,6 +74,7 @@ p {
 }
 
 .wrapper {
+    min-height: 100vh;
     padding: 40px;
     background-color: #3a373792;
     text-align: center;
@@ -92,6 +93,7 @@ p {
 
 #comments {
     margin-bottom: 50px;
+    text-align: left;
 }
 
 .title {
@@ -114,6 +116,11 @@ p {
 .new-style {
     color: #e91212;
     text-shadow: 0 0 5px #000000, 0 10px 50px #ffffff;
+}
+
+.articles {
+    margin-bottom: 2rem;
+    text-align: left;
 }
 
 .articles__title,
@@ -235,7 +242,7 @@ p {
 
 .footer {
     background-color: #aba19d2e;
-    padding: 8px;
+    padding: 10px;
     font-size: 1.1rem;
     text-align: center;
     color: #e91212;
