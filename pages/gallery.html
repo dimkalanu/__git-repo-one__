@@ -5,42 +5,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Water+Brush&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/722a4c3dbd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
     <title>Home Work L2</title>
 </head>
 
-<body>
-    <header>
-        <h1>Gallery</h1>
-        <hr>
-        <nav>
-            <a href="../index.html">Home</a>
-            <a href="articles.html">Articles</a>
-            <a href="catalog.html">Catalog</a>
-            <a href="contacts.html">Contacts</a>
-            <a href="page-nav.html">Page Nav</a>
-            <a href="registration.html">Registration</a>
-        </nav>
-    </header>
-    <hr>
-    <main>
-        <div>
-            <a href="../img/img1.jpeg" target="_blank">Image sample 1: JPEG
-                <img src="../img/img1.jpeg" alt="full_jpeg" width="250">
-            </a>
-        </div>
-        <div><a href="../img/img2.png" target="_blank">Image sample 2: PNG
-                <img src="../img/img2.png" alt="full_png" width="250">
-            </a>
-        </div>
-        <div><a href="../img/img3.svg" target="_blank">Image sample 3: SVG
-                <img src="../img/img3.svg" alt="full_svg" width="250">
-            </a>
-        </div>
-    </main>
-    <hr>
-    <footer>
-        <p>&copy; All rights reserved</p>
-    </footer>
+<body class="texture">
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <a href="../index.html" class="logo-btn">
+                    <img src="../img/logo.png" alt="car logo" class="logo-car">
+                </a>
+            </div>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="../index.html" class="btn">Home</a></li>
+                    <li><a href="../pages/articles.html" class="btn">Articles</a></li>
+                    <li><a href="../pages/catalog.html" class="btn">Catalog</a></li>
+                    <li><a href="../pages/contacts.html" class="btn">Contacts</a></li>
+                    <li><a href="../pages/page-nav.html" class="btn">Page-Nav</a></li>
+                    <li><a href="../pages/registration.html" class="btn">Registration</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="wrapper">
+                <h1 class="title-style">Gallery</h1>
+                <div class="gallery">
+                    <div class="gallery-element">
+                        <a href="../img/img1.jpeg" target="_blank" class="gallery__link">Image sample 1: JPEG</a>
+                        <img src="../img/img1.jpeg" alt="full_jpeg" class="gallery__img">
+                    </div>
+                    <div class="gallery-element">
+                        <a href="../img/img2.png" target="_blank" class="gallery__link">Image sample 2: PNG</a>
+                        <img src="../img/img2.png" alt="full_png" class="gallery__img">
+                    </div>
+                    <div class="gallery-element">
+                        <a href="../img/img3.svg" target="_blank" class="gallery__link">Image sample 3: SVG</a>
+                        <img src="../img/img3.svg" alt="full_svg" class="gallery__img">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            &copy; Butnari Dumitru
+        </footer>
+    </div>
 </body>
 
 </html>

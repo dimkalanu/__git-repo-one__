@@ -75,7 +75,7 @@ p {
 
 .wrapper {
     padding: 40px;
-    background-color: #3a37375c;
+    background-color: #3a373792;
 }
 
 .comments-wrapper {
@@ -94,7 +94,7 @@ p {
 }
 
 .title,
-.title__style {
+.title-style {
     margin-top: 10vh;
     font-family: 'Water Brush', cursive;
     font-size: 4rem;
@@ -102,7 +102,7 @@ p {
     text-shadow: 0 0 5px #000000, 0 10px 50px #e91212;
 }
 
-.title__style {
+.title-style {
     margin-top: 50px;
 }
 
@@ -191,6 +191,41 @@ p {
     margin-left: 4px;
     margin-bottom: 3px;
     border-radius: 10px;
+}
+
+.texture {
+    background-image: url(../img/texture.png);
+    background-size: 100px;
+    background-repeat: repeat;
+}
+
+.gallery {
+    display: flex;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.gallery-element {
+    display: block;
+    width: 33.33%;
+}
+
+.gallery__img {
+    width: 300px;
+    margin-top: 20px;
+    outline: 10px solid #2e0303;
+    border-radius: 10%;
+}
+
+.gallery__img:hover {
+    outline: none;
+    border-radius: 0;
+}
+
+.gallery__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
 }
 
 .footer {
