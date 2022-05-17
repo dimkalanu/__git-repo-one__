@@ -76,6 +76,7 @@ p {
 .wrapper {
     padding: 40px;
     background-color: #3a373792;
+    text-align: center;
 }
 
 .comments-wrapper {
@@ -91,6 +92,10 @@ p {
 
 #comments {
     margin-bottom: 50px;
+}
+
+.title {
+    margin-bottom: 30vh;
 }
 
 .title,
@@ -229,10 +234,6 @@ p {
 }
 
 .footer {
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
     background-color: #aba19d2e;
     padding: 8px;
     font-size: 1.1rem;
@@ -240,10 +241,67 @@ p {
     color: #e91212;
 }
 
-.footer-two {
-    background-color: #aba19d2e;
-    padding: 8px;
-    font-size: 1.1rem;
-    text-align: center;
-    color: #e91212;
+iframe {
+    width: 800px;
+    height: 450px;
+    border: 0;
+    opacity: 0.8;
 }
+
+/* Forms */
+label {
+    text-align: center;
+}
+
+legend {
+    padding: 10px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid #b7b7b7;
+    background-color: #fff;
+}
+
+fieldset {
+    max-width: 600px;
+    margin: 25px auto;
+    background-color: #9e9c9cc4;
+    border: 2px solid #b7b7b7;
+    text-align: left;
+    color: #580303de;
+  }
+  
+  input {
+    width: 100%;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    font-style: italic;
+  }
+  
+  input[type="file"] {
+    padding: 0;
+  }
+
+  input[name="name"], input[name="sur_name"], input[name="patrymonic"] {
+      text-transform: capitalize;
+  }
+  
+  input[type="checkbox"],
+  input[type="radio"] {
+    width: auto;
+    border: 2px dashed #2e0303;
+  }
+
+.special-hover:hover {
+      outline: 2px dashed #2e0303;
+  }
+  
+  textarea {
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px 25px;
+    min-height: 70px;
+    max-height: 35vh;
+    font-family: inherit;
+    font-style: italic;
+  }
