@@ -28,7 +28,13 @@ body::after {
     top: 15px;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
     padding: 0;
 }
@@ -91,7 +97,7 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 0.9rem;
 }
 
-.section__title {
+.section-title {
     margin: 15px;
     border-bottom: 2px solid #ffffff;
     font-size: 2rem;
@@ -120,6 +126,7 @@ h1, h2, h3, h4, h5, h6, p {
 .card-new {
     position: relative;
 }
+
 .card-new::after {
     content: "";
     background-image: url(../img/new-sticker.png);
@@ -160,6 +167,17 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* ====================== Buttons ====================== */
 
+button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background: #180000;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: #ff0000;
+    transition: all 0.5s ease;
+}
+
 .btn {
     padding: 5px 15px;
     font-size: 0.8em;
@@ -171,7 +189,8 @@ h1, h2, h3, h4, h5, h6, p {
     transition: all 0.5s ease;
 }
 
-.btn:hover, button:hover {
+.btn:hover,
+button:hover {
     background-color: #e91212;
     color: #ffffff;
 }
@@ -187,17 +206,6 @@ h1, h2, h3, h4, h5, h6, p {
     color: #f4b7b7;
 }
 
-button {
-    padding: 5px 10px;
-    margin-left: 5px;
-    background: #180000;
-    font-size: 1rem;
-    text-transform: uppercase;
-    border-radius: 5px;
-    color: #ff0000;
-    transition: all 0.5s ease;
-}
-
 /* ====================== Articles ====================== */
 
 .articles {
@@ -205,29 +213,22 @@ button {
     text-align: left;
 }
 
-.articles__title,
-.article__title {
+.articles-title {
     margin-bottom: 25px;
     font-family: Geneva, sans-serif;
-    font-size: 0.9em;
+    font-size: 0.8em;
     text-decoration: none;
     text-transform: uppercase;
     color: #df0707;
     border-bottom: 1px solid #ffffff;
 }
 
-.articles__short,
-.articles__long {
+.article {
     margin-top: 10px;
     padding: 15px;
     text-align: justify;
     background-color: #5a842dbb;
     border-radius: 10px;
-}
-
-.article__title {
-    font-size: 1.5em;
-    text-align: center;
 }
 
 .first-letter {
@@ -325,19 +326,19 @@ button {
     text-align: center;
 }
 
-.gallery__img {
+.gallery-img {
     width: 300px;
     margin-top: 40px;
     outline: 10px solid #2e0303;
     border-radius: 10%;
 }
 
-.gallery__img:hover {
+.gallery-img:hover {
     outline: none;
     border-radius: 0;
 }
 
-.gallery__link {
+.gallery-link {
     padding: 10px;
     background-color: #0f0d0d;
     border: 1px solid #ffffff;
@@ -348,8 +349,8 @@ button {
     transition: 0.3s ease all;
 }
 
-.gallery__link:hover {
-    background-color:#750707;
+.gallery-link:hover {
+    background-color: #750707;
     color: #eae0e0;
 }
 
