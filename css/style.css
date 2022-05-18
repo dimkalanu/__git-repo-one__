@@ -316,7 +316,7 @@ button:hover {
 
 .texture {
     background-image: url(../img/texture.png);
-    background-size: 100px;
+    background-size: 8px;
     background-repeat: repeat;
 }
 
